@@ -7,6 +7,7 @@ body {
     line-height: 1.5em;
     font-size: 1.5rem;
    font-family: #393d41 1.2rem 'Open Sans' interlinea 1.65;
+  
 }
 
 header {
@@ -25,7 +26,7 @@ header img{
     }
 
 #banner {
-    width: 400px;
+    width: 500px;
     height: 280px;
     background-image: url(../images/banner.jpg);
     background-size: cover;
@@ -140,8 +141,9 @@ header img{
 
  .imguno {
     max-width: 100%;
-    width: 100px;
-    height: 200px;
+    width: 300px;
+    height: auto;
+    padding-top: 2em;
  }
 
  .secondaimmagine {
@@ -151,14 +153,73 @@ header img{
     border-right: solid 1px #dee1e3;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Open Sans';
+ }
+
+ .secondaimmagine > h3 {
+    color: #25a2c3;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+ }
+
+ .secondaimmagine > p {
+    font-weight: 200;
+    padding-bottom: 2em;
  }
 
  .imgdue {
     max-width: 100%;
     width: 300px;
+    height: auto; 
     padding-top: 2em;
+}
 
- }
+.terzaimmagine {
+    max-width: 80%;
+    border-bottom: solid 1px #dee1e3;
+    border-left: solid 1px #dee1e3;
+    border-right: solid 1px #dee1e3;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans';
+}
 
+.terzaimmagine > h3 {
+    color: #25a2c3;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
 
+.terzaimmagine > p {
+    font-weight: 200;
+    padding-bottom: 2em;
+}
+
+.imgtre {
+    max-width: 100%;
+    width: 300px;
+    height: auto; 
+    padding-top: 2em;
+}
+
+footer {
+    background-color: #30b5da;
+    color: white;
+    font-family: 'Montserrat';
+    padding-top: 2em;
+}
+
+footer h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+footer a {
+    color: white;
+    line-height: 1.5em;
+    padding: 1.5em;
+}
 
