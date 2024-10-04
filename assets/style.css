@@ -223,3 +223,21 @@ footer a {
     padding: 1.5em;
 }
 
+#line {
+    color: white;
+    width: 30%;
+    padding-bottom: 1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#copyright {
+    font-size: smaller;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.fas {
+    padding-right: 0.2em;
+}
