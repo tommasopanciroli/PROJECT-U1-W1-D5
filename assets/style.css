@@ -70,15 +70,15 @@ header img{
     padding: 0.5em;
 }
 
-section h3 {
+#sezioneuno h3 {
     font-family: 'Open Sans';
     color: #25a2c3;
     font-weight: 500;
     padding-bottom: 0.5em;
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 
-section p {
+#sezioneuno p {
     font-family: 'Open Sans';
     font-weight: 200;
     padding-bottom: 2em;
@@ -115,5 +115,50 @@ section p {
 #corsivo {
     font-style: italic;
 }
+
+.primaimmagine {
+    max-width: 80%;
+    border-bottom: solid 1px #dee1e3;
+    border-left: solid 1px #dee1e3;
+    border-right: solid 1px #dee1e3;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans';
+}
+
+.primaimmagine > h3 {
+    color: #25a2c3;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.primaimmagine > p {
+    font-weight: 200;
+    padding-bottom: 2em;
+}
+
+ .imguno {
+    max-width: 100%;
+    width: 100px;
+    height: 200px;
+ }
+
+ .secondaimmagine {
+    max-width: 80%;
+    border-bottom: solid 1px #dee1e3;
+    border-left: solid 1px #dee1e3;
+    border-right: solid 1px #dee1e3;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .imgdue {
+    max-width: 100%;
+    width: 300px;
+    padding-top: 2em;
+
+ }
+
 
 
